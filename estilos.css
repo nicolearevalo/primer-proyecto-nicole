@@ -88,6 +88,29 @@ body {
     @keyframes fadeIn {
       to { opacity:1; transform:translateY(0);}
     }
+
+#sobre-mi {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+#sobre-mi h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#sobre-mi img {
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  margin-top: 20px;
+}
+
+#sobre-mi p {
+  max-width: 600px;
+  margin: 20px auto 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
 </style>
 </head>
 <body>
@@ -108,7 +131,6 @@ body {
 <h2>Sobre mí</h2>
 <section id="sobre-mi">
   <h2>Sobre mí</h2>
-  <img src="img/foto1.jpg" alt="Foto de Nicole" width="200">
 <p>Soy Ingeniera Química y apasionada por la tecnología y la innovación. Me enfoco en crear soluciones prácticas y elegantes.</p>
 </section>
 
