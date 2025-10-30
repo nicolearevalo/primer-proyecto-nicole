@@ -149,18 +149,24 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
+/* Descripción con transición suave */
 .descripcion {
-  display: none;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
   margin-top: 5px;
   padding: 10px;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
   text-align: left;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
 }
 
+/* Al pasar el cursor sobre el botón, se despliega la descripción */
 .servicio-btn:hover + .descripcion {
-  display: block;
+  max-height: 200px; /* suficiente para el contenido */
+  opacity: 1;
 }
 
 </style>
